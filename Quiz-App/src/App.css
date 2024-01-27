@@ -19,12 +19,9 @@ body.Dark {
 body.Dark .Darkbtn:hover{
   box-shadow: 2px 4px 10px rgb(255, 255, 255);
 }
-#logo{
+#logo img{
   height:4vw;
-  width:19vw;
-  /* background-image: url('./src/assets/Kalvium-Logo-SVG.svg'); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  width:100%;
 }
 nav{
   width:90vw;
@@ -37,7 +34,7 @@ nav{
 .questionBox{
   position: absolute; 
   top: 25vh;
-  left: 15%;
+  left: 12%;
   right: 10%;
   background-color: #00b2ff;
   border-radius: 2vw;
@@ -96,10 +93,13 @@ nav{
   }
   .questionBox{
     top: 18vh;
-    left: 6%;
+    left: 6.5%;
   }
   .option{
     font-size:3.5vw;
+  }
+  #logo{
+    height: 100%;
   }
 
 }

@@ -48,7 +48,7 @@ export default function QuestionBox() {
           ))}
 
           <button className='highlight' onClick={handleChange}>HIGHLIGHT</button>
-          <button className='highlight' onClick={handleColor}>UNHIGHLIGHT</button>
+          <button className='highlight' onClick={handleColor}>REMOVE HIGHLIGHT</button>
         </div>
       )}
     </>
