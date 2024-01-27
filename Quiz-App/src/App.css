@@ -96,5 +96,10 @@ nav{
   }
   .questionBox{
     top: 18vh;
+    left: 10%;
   }
+  .option{
+    font-size:3.5vw;
+  }
+
 }
