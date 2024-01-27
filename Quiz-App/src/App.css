@@ -19,9 +19,12 @@ body.Dark {
 body.Dark .Darkbtn:hover{
   box-shadow: 2px 4px 10px rgb(255, 255, 255);
 }
-#logo img{
-  height:100%;
-  width: 15vw;
+#logo{
+  height:4vw;
+  width:19vw;
+  background-image: url('./src/assets/Kalvium-Logo-SVG.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 nav{
   width:90vw;
