@@ -1,0 +1,86 @@
+
+body{
+  background-color: white;
+  color : black;
+  text-align: center;
+}
+body.Dark {
+  background-color: black; 
+}
+.Darkbtn{
+  background-color: #00b2ff;
+}
+.Darkbtn:hover{
+  box-shadow: 2px 4px 10px rgb(0, 0, 0);
+}
+body.Dark .Darkbtn:hover{
+  box-shadow: 2px 4px 10px rgb(255, 255, 255);
+}
+#logo img{
+  height:100%;
+  width: 15vw;
+}
+nav{
+  width:90vw;
+  display: flex;
+  justify-content:space-between;
+  position: absolute;
+  top:0;
+  margin: 4vw;
+}
+.questionBox{
+  position: absolute; 
+  top: 28vh;
+  left: 15%;
+  right: 10%;
+  height: 60vh;
+  width: 70vw;
+  background-color: #00b2ff;
+  border-radius: 2vw;
+}
+#question{
+  color: white;
+  font-size: 3vw;
+  margin: 2vw;
+}
+.option{
+  background-color: whitesmoke;
+  margin: 2vh;
+  margin-top: 4vh;
+  border-radius: 1vw;
+  width: auto;
+  height: 5vh;
+}
+.option:hover{
+  cursor: pointer;
+  box-shadow: 2px 4px 10px rgb(0, 0, 0);
+}
+.resultBox{
+  position: absolute; 
+  top: 28vh;
+  left: 20%;
+  right: 10%; 
+  background-color: #00b2ff;
+  border-radius: 2vw;
+  color: white;
+  width: 60vw;
+  height: 55vh;
+}
+.result{
+  font-size: 6vw;
+  margin-bottom: 2vw;
+}
+.Againbtn{
+  background-color: white;
+  color: black;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+.Againbtn:hover{
+  border: 2px solid black;
+}
+.highlight{
+  background-color: white;
+  color: black;
+  margin: 1vw;
+}
