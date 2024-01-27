@@ -87,3 +87,14 @@ nav{
   color: black;
   margin: 1vw;
 }
+@media all and (orientation: portrait){
+  #question{
+    font-size: 8vw;
+  }
+  .highlight{
+    margin:4vw;
+  }
+  .questionBox{
+    top: 18vh;
+  }
+}
