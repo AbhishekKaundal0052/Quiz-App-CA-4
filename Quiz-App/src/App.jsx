@@ -2,6 +2,7 @@ import React, { useEffect,useState } from 'react'
 import './App.css'
 import QuestionBox from './Components/QuestionBox';
 import Result from './Components/Result';
+import logo from './assets/Kalvium-Logo-SVG.svg'
 
 function App() {
   const [Theme, setTheme] = useState("dark");
@@ -15,7 +16,7 @@ function App() {
     <>
    <nav>
       <div id="logo">
-        <img src="./src/assets/Kalvium-Logo-SVG.svg" alt="logo"/>
+        <img src={logo} alt="logo"/>
       </div>
       <button className="Darkbtn" onClick={changeTheme}>{Theme}</button>
     </nav>
