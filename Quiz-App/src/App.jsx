@@ -15,7 +15,7 @@ function App() {
     <>
    <nav>
       <div id="logo">
-        <img src="./assets/Kalvium-Logo-SVG.svg" alt="logo"/>
+        <img src="assets/Kalvium-Logo-SVG.svg" alt="logo"/>
       </div>
       <button className="Darkbtn" onClick={changeTheme}>{Theme}</button>
     </nav>
