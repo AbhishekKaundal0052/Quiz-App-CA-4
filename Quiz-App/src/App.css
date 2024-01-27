@@ -30,11 +30,9 @@ nav{
 }
 .questionBox{
   position: absolute; 
-  top: 28vh;
+  top: 25vh;
   left: 15%;
   right: 10%;
-  height: 60vh;
-  width: 70vw;
   background-color: #00b2ff;
   border-radius: 2vw;
 }
