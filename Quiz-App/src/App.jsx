@@ -16,7 +16,7 @@ function App() {
     <>
    <nav>
       <div id="logo">
-        {/* <img src={logo} alt="logo"/> */}
+        <img src={logo} alt="logo"/>
       </div>
       <button className="Darkbtn" onClick={changeTheme}>{Theme}</button>
     </nav>

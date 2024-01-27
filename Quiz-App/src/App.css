@@ -22,7 +22,7 @@ body.Dark .Darkbtn:hover{
 #logo{
   height:4vw;
   width:19vw;
-  background-image: url('./src/assets/Kalvium-Logo-SVG.svg');
+  /* background-image: url('./src/assets/Kalvium-Logo-SVG.svg'); */
   background-repeat: no-repeat;
   background-size: cover;
 }
